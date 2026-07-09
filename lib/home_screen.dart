@@ -17,6 +17,7 @@ class _HomeScreenState extends State<HomeScreen> {
 
         child: Row(
           mainAxisAlignment: MainAxisAlignment.spaceAround,
+          crossAxisAlignment: CrossAxisAlignment.end,
           children: [
             Text("My Name is Mahim", style: TextStyle(fontSize: 20)),
             Text("My Name is Mahim", style: TextStyle(fontSize: 20)),
