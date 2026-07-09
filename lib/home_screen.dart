@@ -13,79 +13,14 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(backgroundColor: Colors.blue),
       body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
 
-        child: Column(
-
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
-            Text(
-              "This is body",
-              style: TextStyle(
-                fontSize: 20,
-                color: Colors.red,
-                wordSpacing: 20,
-                height: 20,
-              ),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            SizedBox(height: 20,),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            SizedBox(height: 20,),
-
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
-            SizedBox(height: 20,),
-            Text(
-              "This is body",
-              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
-            ),
+            Text("My Name is Mahim", style: TextStyle(fontSize: 20)),
+            Text("My Name is Mahim", style: TextStyle(fontSize: 20)),
+            Text("My Name is Mahim", style: TextStyle(fontSize: 20)),
           ],
         ),
       ),
