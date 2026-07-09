@@ -1,33 +1,92 @@
 import 'package:flutter/material.dart';
 
-class HomeScreen extends StatelessWidget {
+class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
 
   @override
+  State<HomeScreen> createState() => _HomeScreenState();
+}
+
+class _HomeScreenState extends State<HomeScreen> {
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text("Mahim"),
-        centerTitle: true,
-        leading: IconButton(onPressed: () {}, icon: Icon(Icons.arrow_back)),
-        actions: [
-          Icon(Icons.search),
-          SizedBox(width: 10),
-          Icon(Icons.notifications),
-        ],
-        backgroundColor: Colors.lightBlue,
-        foregroundColor: Colors.white,
-        elevation: 0,
-        toolbarHeight: 50,
-        shadowColor: Colors.red,
-        surfaceTintColor: Colors.transparent,
-        flexibleSpace: Container(
-          decoration: BoxDecoration(
-            gradient: LinearGradient(colors: [Colors.blue, Colors.pinkAccent]),
-          ),
-        ),
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.vertical(bottom: Radius.circular(12)),
+      appBar: AppBar(backgroundColor: Colors.blue),
+      body: SingleChildScrollView(
+
+        child: Column(
+
+          children: [
+            Text(
+              "This is body",
+              style: TextStyle(
+                fontSize: 20,
+                color: Colors.red,
+                wordSpacing: 20,
+                height: 20,
+              ),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            SizedBox(height: 20,),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            SizedBox(height: 20,),
+
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+            SizedBox(height: 20,),
+            Text(
+              "This is body",
+              style: TextStyle(fontSize: 20, color: Colors.red, wordSpacing: 20),
+            ),
+          ],
         ),
       ),
     );
